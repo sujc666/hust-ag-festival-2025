@@ -1,0 +1,161 @@
+
+img {
+    max-width: 100%;
+}
+/*-----------------------------------------------------------*/
+/*最上面横幅的css*/
+
+/*----------------------------------------------------------*/
+
+/*第一部分的照片，改成社指合照*/
+#bg1{
+
+    background-image: url(../picture/hezhao.jpg);
+}
+/*第一部分表面颜色*/
+.inner-banner::before{
+    background-color: #f6ffdc; 
+    opacity: 30%;   
+}
+.inner-banner .inner-title h3 {
+    color: #9ADA7D;
+    opacity: 80%;
+    font-size: 50px;
+    font-weight: 700;
+}
+.inner-banner .inner-title ul li a {
+    color: black;
+}
+.inner-banner .inner-title ul li:last-child{
+    color: black;
+}
+/*-----------------------------------------------------------------*/
+/*第二部分*/
+.second{
+    position: relative;
+}
+.banyuan{
+    position: absolute;
+    top: 0;
+    background-color: #AADE92;
+    width: 200px;
+    height: 100px;
+    border-radius: 0 0 100px 100px;
+    opacity: 70%;
+    box-shadow: 0 0 30px #9ADA7D;
+}
+.fangxing{
+    z-index: 0;
+    position: absolute;
+    top: 600px;
+    left: 800px;
+    background-color: #f6ffdc;
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: #f6ffdc;
+    opacity: 30%;
+}
+.banbanjiao{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 150px;
+    height: 150px;
+    border-radius: 150px 0 0 0;
+    background-color: #cdffb2;
+    box-shadow: 0 0 30px #cdffb2;
+}
+.banyuan2{
+    position: absolute;
+    top: 750px;
+    left: 0;
+    width: 100px;
+    height: 200px;
+    background-color: #d7ffaf;
+    border-radius: 0 100px 100px 0;
+    box-shadow: 0 0 20px #d7ffaf;
+    opacity: 30%;
+}
+.service-dtls-content h2 {
+    text-align: center;
+    color: #AADE92;
+}
+.common-catagory .catagory li a ,
+.common-catagory h3{
+    color:#AADE92;
+}
+.common-catagory .catagory li::before{
+    background-color: #9ADA7D;
+}
+/*------------------------------------------------------------------*/
+/*第三部分照片的css*/
+.san-wenzi{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #AADE92;
+    font-size: x-large;
+}
+.counter-area{
+    background-color: #f6ffdc;
+    opacity: 80%;
+}
+.disan{
+    flex: 0 0 auto;
+    width: 35%;
+    margin: auto auto;
+}
+.col-lg-3{
+    position: relative;
+    
+}
+.col-lg-3 img {
+    position: absolute;
+    left:50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+/*---------------------------------------------------------------------*/
+/*轮播图的css*/
+.client-item{
+    background-color: #f6ffdc;
+}
+.client-area .client-slider .center .client-item{
+    background-color: #9ADA7D;
+}
+.section-title h4{
+    color: #E8EF6A;
+}
+.section-title h2 {
+    color: #AADE92;
+}
+.daxiao{
+    height: 400px;
+}
+/*----------------------------------------------------------------*/
+.client-area .owl-theme .owl-nav .owl-prev{
+    color:black;
+    background-color: #fff !important;
+}
+.client-area .owl-theme .owl-nav .owl-prev:hover{
+    background-color: #fff !important;
+}
+.client-area .owl-theme .owl-nav .owl-next{
+    color: black;
+    background-color: #fff !important;
+}
+.client-area .owl-theme .owl-nav .owl-next:hover{
+    background-color:  #fff !important;
+}
+/*---------------------------------------------------------------*/
+/*最下面的按钮的css*/
+.top-btn{
+    background-color: #f6ffdc;
+    color: black;
+    box-shadow: 0 0 15px #f6ffdc !important;
+}
+.top-btn:hover{
+    background-color: #9ADA7D;
+}
