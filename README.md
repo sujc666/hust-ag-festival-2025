@@ -1,3 +1,6 @@
+<div align = center>
+<img width="180" height="" alt="AG" src="https://github.com/user-attachments/assets/61df145a-7bd2-43a7-a8ef-3831615da302" />
+</div>
 
 # 华科大 学生社团指导中心 22th 学生社团文化节招新官网
 
@@ -14,6 +17,7 @@
 - `static/js/`：JavaScript 脚本
 - `static/image/`：LOGO等图片
 - `static/picture/`：文化节贴纸、活动等图片素材
+- `static/WebQrcode/`：网站二维码
 
 
 ## 主要特性
@@ -54,3 +58,4 @@
 
 © 2025 华中科技大学学生社团指导中心 数字媒体部  
 Passion, Community, Glory!
+
